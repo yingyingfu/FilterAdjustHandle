@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55437A15D22C676F5360959D /* Pods_FilterAdjust.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 752323D700F99B07DAE148F5 /* Pods_FilterAdjust.framework */; };
+		B420F23F2589FBDD002D5F32 /* ImageHandleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B420F23E2589FBDD002D5F32 /* ImageHandleViewController.m */; };
+		B44CF278258B3B8D003FCE25 /* SKFilters.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44CF277258B3B8D003FCE25 /* SKFilters.swift */; };
+		B453FE4A25887E9A004CA802 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B453FE4925887E9A004CA802 /* AppDelegate.swift */; };
+		B453FE4C25887E9A004CA802 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B453FE4B25887E9A004CA802 /* SceneDelegate.swift */; };
+		B453FE4E25887E9A004CA802 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B453FE4D25887E9A004CA802 /* ViewController.swift */; };
+		B453FE5125887E9A004CA802 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B453FE4F25887E9A004CA802 /* Main.storyboard */; };
+		B453FE5325887E9E004CA802 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B453FE5225887E9E004CA802 /* Assets.xcassets */; };
+		B453FE5625887E9E004CA802 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B453FE5425887E9E004CA802 /* LaunchScreen.storyboard */; };
+		B453FE7725889387004CA802 /* SKPictureAdjustView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B453FE6725889387004CA802 /* SKPictureAdjustView.swift */; };
+		B453FE7925889387004CA802 /* SKFilterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B453FE6A25889387004CA802 /* SKFilterModel.swift */; };
+		B453FE7A25889387004CA802 /* SKBlackAndWhiteFilter.fsh in Resources */ = {isa = PBXBuildFile; fileRef = B453FE6B25889387004CA802 /* SKBlackAndWhiteFilter.fsh */; };
+		B453FE7B25889387004CA802 /* GPUImageBlackAndWhiteFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = B453FE6D25889387004CA802 /* GPUImageBlackAndWhiteFilter.m */; };
+		B453FE7C25889387004CA802 /* GPUImageVibranceFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = B453FE6E25889387004CA802 /* GPUImageVibranceFilter.m */; };
+		B453FE7D25889387004CA802 /* GPUImageYouGunagFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = B453FE7125889387004CA802 /* GPUImageYouGunagFilter.m */; };
+		B453FE7E25889387004CA802 /* SKPictureHandleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B453FE7325889387004CA802 /* SKPictureHandleController.swift */; };
+		B453FE822588951A004CA802 /* SBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B453FE812588951A004CA802 /* SBaseController.swift */; };
+		B453FE8725889776004CA802 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = B453FE8625889776004CA802 /* Common.swift */; };
+		B453FE9425889A19004CA802 /* SKFilterParamsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B453FE9325889A19004CA802 /* SKFilterParamsController.swift */; };
+		B4A60FBF258C788C005290DE /* GPUImageSkinToneFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A60FBE258C788C005290DE /* GPUImageSkinToneFilter.m */; };
+		B4A60FC8258CA449005290DE /* GPUImageHighlightShadowTintFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A60FC7258CA449005290DE /* GPUImageHighlightShadowTintFilter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1BC0F61AB78EF1D2DCAF7D59 /* Pods-FilterAdjust.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FilterAdjust.debug.xcconfig"; path = "Target Support Files/Pods-FilterAdjust/Pods-FilterAdjust.debug.xcconfig"; sourceTree = "<group>"; };
+		1DA172F313527B44D244C2E6 /* Pods-FilterAdjust.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FilterAdjust.release.xcconfig"; path = "Target Support Files/Pods-FilterAdjust/Pods-FilterAdjust.release.xcconfig"; sourceTree = "<group>"; };
+		752323D700F99B07DAE148F5 /* Pods_FilterAdjust.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FilterAdjust.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B420F23D2589FBDD002D5F32 /* ImageHandleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageHandleViewController.h; sourceTree = "<group>"; };
+		B420F23E2589FBDD002D5F32 /* ImageHandleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageHandleViewController.m; sourceTree = "<group>"; };
+		B44CF277258B3B8D003FCE25 /* SKFilters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKFilters.swift; sourceTree = "<group>"; };
+		B453FE4625887E9A004CA802 /* FilterAdjust.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FilterAdjust.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B453FE4925887E9A004CA802 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B453FE4B25887E9A004CA802 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B453FE4D25887E9A004CA802 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B453FE5025887E9A004CA802 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B453FE5225887E9E004CA802 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B453FE5525887E9E004CA802 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B453FE5725887E9E004CA802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B453FE6725889387004CA802 /* SKPictureAdjustView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKPictureAdjustView.swift; sourceTree = "<group>"; };
+		B453FE6A25889387004CA802 /* SKFilterModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKFilterModel.swift; sourceTree = "<group>"; };
+		B453FE6B25889387004CA802 /* SKBlackAndWhiteFilter.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = SKBlackAndWhiteFilter.fsh; sourceTree = "<group>"; };
+		B453FE6D25889387004CA802 /* GPUImageBlackAndWhiteFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageBlackAndWhiteFilter.m; sourceTree = "<group>"; };
+		B453FE6E25889387004CA802 /* GPUImageVibranceFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageVibranceFilter.m; sourceTree = "<group>"; };
+		B453FE6F25889387004CA802 /* GPUImageYouGunagFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageYouGunagFilter.h; sourceTree = "<group>"; };
+		B453FE7025889387004CA802 /* GPUImageBlackAndWhiteFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageBlackAndWhiteFilter.h; sourceTree = "<group>"; };
+		B453FE7125889387004CA802 /* GPUImageYouGunagFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageYouGunagFilter.m; sourceTree = "<group>"; };
+		B453FE7225889387004CA802 /* GPUImageVibranceFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageVibranceFilter.h; sourceTree = "<group>"; };
+		B453FE7325889387004CA802 /* SKPictureHandleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKPictureHandleController.swift; sourceTree = "<group>"; };
+		B453FE812588951A004CA802 /* SBaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBaseController.swift; sourceTree = "<group>"; };
+		B453FE8425889638004CA802 /* FilterAdjust-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FilterAdjust-Bridging-Header.h"; sourceTree = "<group>"; };
+		B453FE8625889776004CA802 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		B453FE9325889A19004CA802 /* SKFilterParamsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKFilterParamsController.swift; sourceTree = "<group>"; };
+		B4A60FBD258C788C005290DE /* GPUImageSkinToneFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPUImageSkinToneFilter.h; sourceTree = "<group>"; };
+		B4A60FBE258C788C005290DE /* GPUImageSkinToneFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPUImageSkinToneFilter.m; sourceTree = "<group>"; };
+		B4A60FC6258CA449005290DE /* GPUImageHighlightShadowTintFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPUImageHighlightShadowTintFilter.h; sourceTree = "<group>"; };
+		B4A60FC7258CA449005290DE /* GPUImageHighlightShadowTintFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPUImageHighlightShadowTintFilter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B453FE4325887E9A004CA802 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55437A15D22C676F5360959D /* Pods_FilterAdjust.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F97EB7EAE928D3307D13F88 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1BC0F61AB78EF1D2DCAF7D59 /* Pods-FilterAdjust.debug.xcconfig */,
+				1DA172F313527B44D244C2E6 /* Pods-FilterAdjust.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8321851096A591D93572A501 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				752323D700F99B07DAE148F5 /* Pods_FilterAdjust.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B453FE3D25887E9A004CA802 = {
+			isa = PBXGroup;
+			children = (
+				B453FE8425889638004CA802 /* FilterAdjust-Bridging-Header.h */,
+				B453FE4825887E9A004CA802 /* FilterAdjust */,
+				B453FE4725887E9A004CA802 /* Products */,
+				0F97EB7EAE928D3307D13F88 /* Pods */,
+				8321851096A591D93572A501 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B453FE4725887E9A004CA802 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B453FE4625887E9A004CA802 /* FilterAdjust.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B453FE4825887E9A004CA802 /* FilterAdjust */ = {
+			isa = PBXGroup;
+			children = (
+				B453FE6325889387004CA802 /* FilterForPicture */,
+				B453FE4925887E9A004CA802 /* AppDelegate.swift */,
+				B453FE4B25887E9A004CA802 /* SceneDelegate.swift */,
+				B453FE812588951A004CA802 /* SBaseController.swift */,
+				B453FE8625889776004CA802 /* Common.swift */,
+				B453FE4D25887E9A004CA802 /* ViewController.swift */,
+				B453FE4F25887E9A004CA802 /* Main.storyboard */,
+				B453FE5225887E9E004CA802 /* Assets.xcassets */,
+				B453FE5425887E9E004CA802 /* LaunchScreen.storyboard */,
+				B453FE5725887E9E004CA802 /* Info.plist */,
+				B420F23D2589FBDD002D5F32 /* ImageHandleViewController.h */,
+				B420F23E2589FBDD002D5F32 /* ImageHandleViewController.m */,
+			);
+			path = FilterAdjust;
+			sourceTree = "<group>";
+		};
+		B453FE6325889387004CA802 /* FilterForPicture */ = {
+			isa = PBXGroup;
+			children = (
+				B453FE6925889387004CA802 /* Model */,
+				B453FE6C25889387004CA802 /* CustomFilter */,
+				B453FE7325889387004CA802 /* SKPictureHandleController.swift */,
+				B453FE9325889A19004CA802 /* SKFilterParamsController.swift */,
+				B453FE6725889387004CA802 /* SKPictureAdjustView.swift */,
+				B44CF277258B3B8D003FCE25 /* SKFilters.swift */,
+			);
+			path = FilterForPicture;
+			sourceTree = "<group>";
+		};
+		B453FE6925889387004CA802 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B453FE6A25889387004CA802 /* SKFilterModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B453FE6C25889387004CA802 /* CustomFilter */ = {
+			isa = PBXGroup;
+			children = (
+				B453FE6D25889387004CA802 /* GPUImageBlackAndWhiteFilter.m */,
+				B453FE6E25889387004CA802 /* GPUImageVibranceFilter.m */,
+				B453FE6F25889387004CA802 /* GPUImageYouGunagFilter.h */,
+				B453FE7025889387004CA802 /* GPUImageBlackAndWhiteFilter.h */,
+				B453FE7125889387004CA802 /* GPUImageYouGunagFilter.m */,
+				B453FE7225889387004CA802 /* GPUImageVibranceFilter.h */,
+				B453FE6B25889387004CA802 /* SKBlackAndWhiteFilter.fsh */,
+				B4A60FBD258C788C005290DE /* GPUImageSkinToneFilter.h */,
+				B4A60FBE258C788C005290DE /* GPUImageSkinToneFilter.m */,
+				B4A60FC6258CA449005290DE /* GPUImageHighlightShadowTintFilter.h */,
+				B4A60FC7258CA449005290DE /* GPUImageHighlightShadowTintFilter.m */,
+			);
+			path = CustomFilter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B453FE4525887E9A004CA802 /* FilterAdjust */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B453FE5A25887E9E004CA802 /* Build configuration list for PBXNativeTarget "FilterAdjust" */;
+			buildPhases = (
+				821B1A86F06AD967A472163C /* [CP] Check Pods Manifest.lock */,
+				B453FE4225887E9A004CA802 /* Sources */,
+				B453FE4325887E9A004CA802 /* Frameworks */,
+				B453FE4425887E9A004CA802 /* Resources */,
+				B799F221A07A31C65F8AE90C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FilterAdjust;
+			productName = FilterAdjust;
+			productReference = B453FE4625887E9A004CA802 /* FilterAdjust.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B453FE3E25887E9A004CA802 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					B453FE4525887E9A004CA802 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = B453FE4125887E9A004CA802 /* Build configuration list for PBXProject "FilterAdjust" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B453FE3D25887E9A004CA802;
+			productRefGroup = B453FE4725887E9A004CA802 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B453FE4525887E9A004CA802 /* FilterAdjust */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B453FE4425887E9A004CA802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B453FE5625887E9E004CA802 /* LaunchScreen.storyboard in Resources */,
+				B453FE7A25889387004CA802 /* SKBlackAndWhiteFilter.fsh in Resources */,
+				B453FE5325887E9E004CA802 /* Assets.xcassets in Resources */,
+				B453FE5125887E9A004CA802 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		821B1A86F06AD967A472163C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FilterAdjust-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B799F221A07A31C65F8AE90C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FilterAdjust/Pods-FilterAdjust-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FilterAdjust/Pods-FilterAdjust-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FilterAdjust/Pods-FilterAdjust-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B453FE4225887E9A004CA802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4A60FC8258CA449005290DE /* GPUImageHighlightShadowTintFilter.m in Sources */,
+				B453FE822588951A004CA802 /* SBaseController.swift in Sources */,
+				B453FE4E25887E9A004CA802 /* ViewController.swift in Sources */,
+				B453FE4A25887E9A004CA802 /* AppDelegate.swift in Sources */,
+				B453FE7E25889387004CA802 /* SKPictureHandleController.swift in Sources */,
+				B420F23F2589FBDD002D5F32 /* ImageHandleViewController.m in Sources */,
+				B453FE7B25889387004CA802 /* GPUImageBlackAndWhiteFilter.m in Sources */,
+				B453FE7C25889387004CA802 /* GPUImageVibranceFilter.m in Sources */,
+				B4A60FBF258C788C005290DE /* GPUImageSkinToneFilter.m in Sources */,
+				B453FE7725889387004CA802 /* SKPictureAdjustView.swift in Sources */,
+				B453FE4C25887E9A004CA802 /* SceneDelegate.swift in Sources */,
+				B44CF278258B3B8D003FCE25 /* SKFilters.swift in Sources */,
+				B453FE7925889387004CA802 /* SKFilterModel.swift in Sources */,
+				B453FE9425889A19004CA802 /* SKFilterParamsController.swift in Sources */,
+				B453FE8725889776004CA802 /* Common.swift in Sources */,
+				B453FE7D25889387004CA802 /* GPUImageYouGunagFilter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B453FE4F25887E9A004CA802 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B453FE5025887E9A004CA802 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B453FE5425887E9E004CA802 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B453FE5525887E9E004CA802 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B453FE5825887E9E004CA802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B453FE5925887E9E004CA802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B453FE5B25887E9E004CA802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BC0F61AB78EF1D2DCAF7D59 /* Pods-FilterAdjust.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LTDAVR89KP;
+				INFOPLIST_FILE = FilterAdjust/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fyy.FilterAdjust;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "FilterAdjust-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B453FE5C25887E9E004CA802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DA172F313527B44D244C2E6 /* Pods-FilterAdjust.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LTDAVR89KP;
+				INFOPLIST_FILE = FilterAdjust/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fyy.FilterAdjust;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "FilterAdjust-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B453FE4125887E9A004CA802 /* Build configuration list for PBXProject "FilterAdjust" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B453FE5825887E9E004CA802 /* Debug */,
+				B453FE5925887E9E004CA802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B453FE5A25887E9E004CA802 /* Build configuration list for PBXNativeTarget "FilterAdjust" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B453FE5B25887E9E004CA802 /* Debug */,
+				B453FE5C25887E9E004CA802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B453FE3E25887E9A004CA802 /* Project object */;
+}

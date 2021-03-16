@@ -1,0 +1,24 @@
+PODS:
+  - GPUImage (0.1.7)
+  - SnapKit (4.2.0)
+  - SwiftyJSON (4.2.0)
+
+DEPENDENCIES:
+  - GPUImage
+  - SnapKit (~> 4.2.0)
+  - SwiftyJSON (~> 4.2.0)
+
+SPEC REPOS:
+  trunk:
+    - GPUImage
+    - SnapKit
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+
+PODFILE CHECKSUM: e464d060ceaf3196ece2ac7ac9b6f283a76d7452
+
+COCOAPODS: 1.9.3
